@@ -2,7 +2,7 @@
  * @ Author: German Cano Quiveu, germancq
  * @ Create Time: 2019-11-13 16:53:51
  * @ Modified by: Your name
- * @ Modified time: 2019-11-13 17:02:59
+ * @ Modified time: 2019-11-14 12:23:39
  * @ Description:
  */
 
@@ -10,7 +10,8 @@ module top(
     input a,
     input b,
     input c,
-    output f
+    output f,
+    output output_a
 );
 
     wire a_negated;
@@ -40,5 +41,7 @@ module top(
         .b(y),
         .c(f)
     );
+
+    assign output_a = a;
 
 endmodule
