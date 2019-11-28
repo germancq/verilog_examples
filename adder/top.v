@@ -2,7 +2,7 @@
  * @ Author: German Cano Quiveu, germancq
  * @ Create Time: 2019-11-28 17:39:38
  * @ Modified by: Your name
- * @ Modified time: 2019-11-28 17:54:15
+ * @ Modified time: 2019-11-28 18:24:11
  * @ Description:
  */
 
@@ -16,7 +16,7 @@ module top(
 
     wire [3:0] suma;
     wire carry;
-    4_bit_adder sumador(
+    adder sumador(
         .a(a),
         .b(b),
         .s(suma),

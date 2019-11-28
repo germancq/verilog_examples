@@ -13,10 +13,10 @@ module div_clk_module(
   output [1:0] an_gen_o
   );
 
-
+wire [31:0] contador_o;
 assign an_gen_o[0] = contador_o[div];
 assign an_gen_o[1] = contador_o[div+1];
-wire [31:0] contador_o;
+
 contador_up div_clk_counter(
    .clk(clk),
    .rst(rst),

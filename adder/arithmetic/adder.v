@@ -2,11 +2,11 @@
  * @ Author: German Cano Quiveu, germancq
  * @ Create Time: 2019-11-28 17:35:04
  * @ Modified by: Your name
- * @ Modified time: 2019-11-28 17:38:47
+ * @ Modified time: 2019-11-28 18:22:44
  * @ Description:
  */
 
-module 4_bit_adder(
+module adder(
     input [3:0] a,
     input [3:0] b,
     output [3:0] s,

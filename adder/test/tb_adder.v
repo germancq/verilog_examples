@@ -2,7 +2,7 @@
  * @ Author: German Cano Quiveu, germancq
  * @ Create Time: 2019-11-28 17:56:05
  * @ Modified by: Your name
- * @ Modified time: 2019-11-28 18:02:30
+ * @ Modified time: 2019-11-28 18:23:02
  * @ Description:
  */
 
@@ -13,7 +13,7 @@ module tb_adder;
     reg [3:0] a;
     reg [3:0] b;
 
-    4_bit_adder uut(
+    adder uut(
         .a(a),
         .b(b),
         .s(s),
